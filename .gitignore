@@ -31,3 +31,5 @@ node/out/
 !**/src/test/**/out/
 
 *.log
+.idea
+.direnv
