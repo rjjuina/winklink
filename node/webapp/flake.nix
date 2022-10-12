@@ -14,7 +14,7 @@
        pkgs = nixpkgs.legacyPackages.${system};
      in {
        devShell = pkgs.mkShell {
-         buildInputs = [ pkgs.openjdk8 ];
+         buildInputs = [ pkgs.nodejs-slim-14_x ];
        };
      }
    );
